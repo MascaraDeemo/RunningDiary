@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/paceCalBtn"
+        android:layout_width="189dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/mapTracker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-118dp"
+        android:text="Pace Calculator"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/mapTracker"
+        android:layout_width="189dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="157dp"
+        android:text="Track Your Running"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/runningLog"
+        android:layout_width="189dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/paceCalBtn"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="245dp"
+        android:text="Running Log"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/musicButton"
+        android:layout_width="189dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/paceCalBtn"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="335dp"
+        android:text="Music Player"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaceCalculator">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/distance"
+        android:layout_marginTop="31dp"
+        android:text="Time (min)" />
+
+    <EditText
+        android:id="@+id/timeEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/time"
+        android:layout_alignLeft="@+id/distance"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="95dp"
+        android:layout_toRightOf="@+id/time"
+        android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/pace"
+            android:layout_marginTop="91dp"
+            android:text="Distance (km)" />
+
+    <EditText
+        android:id="@+id/distanceEdit"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/distance"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="7dp"
+        android:layout_toRightOf="@+id/distance"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="132dp"
+        android:text="Calculate" />
+
+        <TextView
+            android:id="@+id/pace"
+            android:layout_width="316dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="159dp"
+            android:text="Pace : "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="316dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:text="Speed : "
+            android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/BackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Go Back" />
+
+
+</RelativeLayout>
